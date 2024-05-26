@@ -1,0 +1,1312 @@
+﻿@prefix est:  <http://example.org/estaciones/> .
+@prefix geo:  <http://www.w3.org/2003/01/geo/wgs84_pos#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#> .
+
+est:StopArea:OCE85010140
+        a           geo:SpatialThing ;
+        rdfs:label  "Mies" ;
+        geo:lat     "46.299879"^^xsd:double ;
+        geo:lon     "6.169566"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85011031
+        a             geo:Point ;
+        rdfs:label    "Vallorbe" ;
+        geo:lat       "46.71242"^^xsd:double ;
+        geo:location  est:StopArea:OCE85011031 ;
+        geo:lon       "6.37057"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87101998
+        a             geo:Point ;
+        rdfs:label    "Durdat-Larequille" ;
+        geo:lat       "46.250854"^^xsd:double ;
+        geo:location  est:StopArea:OCE87101998 ;
+        geo:lon       "2.702154"^^xsd:double .
+
+est:StopPoint:OCECar:TER-82006030
+        a             geo:Point ;
+        rdfs:label    "Bettembourg" ;
+        geo:lat       "49.516111"^^xsd:double ;
+        geo:location  est:StopArea:OCE82006030 ;
+        geo:lon       "6.101111"^^xsd:double .
+
+est:StopPoint:OCECar:TER-80253914
+        a             geo:Point ;
+        rdfs:label    "Sarrebruck" ;
+        geo:lat       "49.241"^^xsd:double ;
+        geo:location  est:StopArea:OCE80253914 ;
+        geo:lon       "6.991"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107425
+        a             geo:Point ;
+        rdfs:label    "Bologne Salle des Fêtes" ;
+        geo:lat       "48.199737"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107425 ;
+        geo:lon       "5.141416"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-87109306
+        a             geo:Point ;
+        rdfs:label    "Lille Centre Hospitalier Régional" ;
+        geo:lat       "50.614297"^^xsd:double ;
+        geo:location  est:StopArea:OCE87109306 ;
+        geo:lon       "3.034278"^^xsd:double .
+
+est:StopArea:OCE82001000
+        a           geo:SpatialThing ;
+        rdfs:label  "Luxembourg" ;
+        geo:lat     "49.599722"^^xsd:double ;
+        geo:lon     "6.134722"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85043158
+        a             geo:Point ;
+        rdfs:label    "Le Crêt-du-Locle" ;
+        geo:lat       "47.0776"^^xsd:double ;
+        geo:location  est:StopArea:OCE85043158 ;
+        geo:lon       "6.78519"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80142919
+        a             geo:Point ;
+        rdfs:label    "Kork" ;
+        geo:lat       "48.5702"^^xsd:double ;
+        geo:location  est:StopArea:OCE80142919 ;
+        geo:lon       "7.8744"^^xsd:double .
+
+est:StopArea:OCE85000109
+        a           geo:SpatialThing ;
+        rdfs:label  "Basel SBB" ;
+        geo:lat     "47.5474"^^xsd:double ;
+        geo:lon     "7.58956"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010025
+        a             geo:Point ;
+        rdfs:label    "Russin" ;
+        geo:lat       "46.187771"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010025 ;
+        geo:lon       "6.017553"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107433
+        a             geo:Point ;
+        rdfs:label    "Soncourt" ;
+        geo:lat       "48.252239"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107433 ;
+        geo:lon       "5.116971"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87005397
+        a             geo:Point ;
+        rdfs:label    "Cany-Barville" ;
+        geo:lat       "49.788629"^^xsd:double ;
+        geo:location  est:StopArea:OCE87005397 ;
+        geo:lon       "0.637805"^^xsd:double .
+
+est:StopArea:OCE87009696
+        a           geo:SpatialThing ;
+        rdfs:label  "La Douzillère" ;
+        geo:lat     "47.338792"^^xsd:double ;
+        geo:lon     "0.652962"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85043166
+        a             geo:Point ;
+        rdfs:label    "Le Locle" ;
+        geo:lat       "47.05786"^^xsd:double ;
+        geo:location  est:StopArea:OCE85043166 ;
+        geo:lon       "6.74616"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80142927
+        a             geo:Point ;
+        rdfs:label    "Kehl" ;
+        geo:lat       "48.5767"^^xsd:double ;
+        geo:location  est:StopArea:OCE80142927 ;
+        geo:lon       "7.8063"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001446
+        a             geo:Point ;
+        rdfs:label    "Buix" ;
+        geo:lat       "47.47933"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001446 ;
+        geo:lon       "7.02998"^^xsd:double .
+
+est:StopArea:OCE85042150
+        a           geo:SpatialThing ;
+        rdfs:label  "Travers" ;
+        geo:lat     "46.94241"^^xsd:double ;
+        geo:lon     "6.67657"^^xsd:double .
+
+est:StopArea:OCE82007187
+        a           geo:SpatialThing ;
+        rdfs:label  "Bascharage secteur Sanem" ;
+        geo:lat     "49.5585"^^xsd:double ;
+        geo:lon     "5.9249"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010033
+        a             geo:Point ;
+        rdfs:label    "Satigny" ;
+        geo:lat       "46.21424"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010033 ;
+        geo:lon       "6.03749"^^xsd:double .
+
+est:StopArea:OCE80251850
+        a           geo:SpatialThing ;
+        rdfs:label  "Konz Mitte" ;
+        geo:lat     "49.700046"^^xsd:double ;
+        geo:lon     "6.57329"^^xsd:double .
+
+est:StopArea:OCE87009712
+        a           geo:SpatialThing ;
+        rdfs:label  "Saint-Vaast-Dieppedalle" ;
+        geo:lat     "49.75585"^^xsd:double ;
+        geo:lon     "0.721415"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110346
+        a             geo:Point ;
+        rdfs:label    "Ervy-le-Châtel Halles" ;
+        geo:lat       "48.041674"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110346 ;
+        geo:lon       "3.910929"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85043166
+        a             geo:Point ;
+        rdfs:label    "Le Locle" ;
+        geo:lat       "47.05786"^^xsd:double ;
+        geo:location  est:StopArea:OCE85043166 ;
+        geo:lon       "6.74616"^^xsd:double .
+
+est:StopPoint:OCECar:TER-80142927
+        a             geo:Point ;
+        rdfs:label    "Kehl" ;
+        geo:lat       "48.5767"^^xsd:double ;
+        geo:location  est:StopArea:OCE80142927 ;
+        geo:lon       "7.8063"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85001446
+        a             geo:Point ;
+        rdfs:label    "Buix" ;
+        geo:lat       "47.47933"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001446 ;
+        geo:lon       "7.02998"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87003707
+        a             geo:Point ;
+        rdfs:label    "Ydes" ;
+        geo:lat       "45.344155"^^xsd:double ;
+        geo:location  est:StopArea:OCE87003707 ;
+        geo:lon       "2.436326"^^xsd:double .
+
+est:StopArea:OCE85001594
+        a           geo:SpatialThing ;
+        rdfs:label  "Grenchen Nord" ;
+        geo:lat     "47.1918"^^xsd:double ;
+        geo:lon     "7.38947"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001412
+        a             geo:Point ;
+        rdfs:label    "Courchavon" ;
+        geo:lat       "47.43977"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001412 ;
+        geo:lon       "7.05765"^^xsd:double .
+
+est:StopArea:OCE87110189
+        a           geo:SpatialThing ;
+        rdfs:label  "Marcenat" ;
+        geo:lat     "45.305259"^^xsd:double ;
+        geo:lon     "2.828722"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85161554
+        a             geo:Point ;
+        rdfs:label    "Lancy-Pont-Rouge" ;
+        geo:lat       "46.188897"^^xsd:double ;
+        geo:location  est:StopArea:OCE85161554 ;
+        geo:lon       "6.125333"^^xsd:double .
+
+est:StopArea:OCE85010009
+        a           geo:SpatialThing ;
+        rdfs:label  "Zimeysa" ;
+        geo:lat     "46.221263"^^xsd:double ;
+        geo:lon     "6.065739"^^xsd:double .
+
+est:StopArea:OCE82002501
+        a           geo:SpatialThing ;
+        rdfs:label  "Howald" ;
+        geo:lat     "49.58032"^^xsd:double ;
+        geo:lon     "6.13232"^^xsd:double .
+
+est:StopArea:OCE85001289
+        a           geo:SpatialThing ;
+        rdfs:label  "Boncourt" ;
+        geo:lat     "47.49263"^^xsd:double ;
+        geo:lon     "7.01656"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85042218
+        a             geo:Point ;
+        rdfs:label    "Neuchatel" ;
+        geo:lat       "46.99673"^^xsd:double ;
+        geo:location  est:StopArea:OCE85042218 ;
+        geo:lon       "6.93571"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001099
+        a             geo:Point ;
+        rdfs:label    "Delemont" ;
+        geo:lat       "47.362"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001099 ;
+        geo:lon       "7.35007"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80142901
+        a             geo:Point ;
+        rdfs:label    "Legelshurst" ;
+        geo:lat       "48.5585"^^xsd:double ;
+        geo:location  est:StopArea:OCE80142901 ;
+        geo:lon       "7.9138"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85001412
+        a             geo:Point ;
+        rdfs:label    "Courchavon" ;
+        geo:lat       "47.43977"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001412 ;
+        geo:lon       "7.05765"^^xsd:double .
+
+est:StopArea:OCE85011031
+        a           geo:SpatialThing ;
+        rdfs:label  "Vallorbe" ;
+        geo:lat     "46.71242"^^xsd:double ;
+        geo:lon     "6.37057"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80142893
+        a             geo:Point ;
+        rdfs:label    "Appenweier" ;
+        geo:lat       "48.5419"^^xsd:double ;
+        geo:location  est:StopArea:OCE80142893 ;
+        geo:lon       "7.9735"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001057
+        a             geo:Point ;
+        rdfs:label    "Moutier" ;
+        geo:lat       "47.28067"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001057 ;
+        geo:lon       "7.38105"^^xsd:double .
+
+est:StopArea:OCE87110205
+        a           geo:SpatialThing ;
+        rdfs:label  "Saint-Amandin" ;
+        geo:lat     "45.343218"^^xsd:double ;
+        geo:lon     "2.694622"^^xsd:double .
+
+est:StopArea:OCE87110197
+        a           geo:SpatialThing ;
+        rdfs:label  "Condat" ;
+        geo:lat     "45.334835"^^xsd:double ;
+        geo:lon     "2.759838"^^xsd:double .
+
+est:StopArea:OCE85001255
+        a           geo:SpatialThing ;
+        rdfs:label  "Courgenay" ;
+        geo:lat     "47.40522"^^xsd:double ;
+        geo:lon     "7.12421"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010207
+        a             geo:Point ;
+        rdfs:label    "Chambésy" ;
+        geo:lat       "46.242378"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010207 ;
+        geo:lon       "6.147342"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85010082
+        a             geo:Point ;
+        rdfs:label    "Geneve" ;
+        geo:lat       "46.21022"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010082 ;
+        geo:lon       "6.14244"^^xsd:double .
+
+est:StopArea:OCE80144154
+        a           geo:SpatialThing ;
+        rdfs:label  "Neuenburg (Baden)" ;
+        geo:lat     "47.8115"^^xsd:double ;
+        geo:lon     "7.5628"^^xsd:double .
+
+est:StopArea:OCE85010025
+        a           geo:SpatialThing ;
+        rdfs:label  "Russin" ;
+        geo:lat     "46.187771"^^xsd:double ;
+        geo:lon     "6.017553"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010157
+        a             geo:Point ;
+        rdfs:label    "Tannay" ;
+        geo:lat       "46.307636"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010157 ;
+        geo:lon       "6.181127"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85162834
+        a             geo:Point ;
+        rdfs:label    "Genève-Sécheron" ;
+        geo:lat       "46.222438"^^xsd:double ;
+        geo:location  est:StopArea:OCE85162834 ;
+        geo:lon       "6.144557"^^xsd:double .
+
+est:StopArea:OCE80143503
+        a           geo:SpatialThing ;
+        rdfs:label  "Freiburg (Breisgau) Hbf" ;
+        geo:lat     "47.9979"^^xsd:double ;
+        geo:lon     "7.8416"^^xsd:double .
+
+est:StopArea:OCE85001263
+        a           geo:SpatialThing ;
+        rdfs:label  "Porrentruy" ;
+        geo:lat     "47.42091"^^xsd:double ;
+        geo:lon     "7.08009"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82001000
+        a             geo:Point ;
+        rdfs:label    "Luxembourg" ;
+        geo:lat       "49.599722"^^xsd:double ;
+        geo:location  est:StopArea:OCE82001000 ;
+        geo:lon       "6.134722"^^xsd:double .
+
+est:StopArea:OCE87107508
+        a           geo:SpatialThing ;
+        rdfs:label  "Marnaval Église" ;
+        geo:lat     "48.62535"^^xsd:double ;
+        geo:lon     "4.990121"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87108829
+        a             geo:Point ;
+        rdfs:label    "Sedan Place Calonne" ;
+        geo:lat       "49.699747"^^xsd:double ;
+        geo:location  est:StopArea:OCE87108829 ;
+        geo:lon       "4.944245"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85000109
+        a             geo:Point ;
+        rdfs:label    "Basel SBB" ;
+        geo:lat       "47.5474"^^xsd:double ;
+        geo:location  est:StopArea:OCE85000109 ;
+        geo:lon       "7.58956"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010215
+        a             geo:Point ;
+        rdfs:label    "Genthod-Bellevue" ;
+        geo:lat       "46.256728"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010215 ;
+        geo:lon       "6.153962"^^xsd:double .
+
+est:StopArea:OCE87107458
+        a           geo:SpatialThing ;
+        rdfs:label  "Gudmont-Centre" ;
+        geo:lat     "48.342516"^^xsd:double ;
+        geo:lon     "5.136969"^^xsd:double .
+
+est:StopArea:OCE80251819
+        a           geo:SpatialThing ;
+        rdfs:label  "Trèves" ;
+        geo:lat     "49.7568"^^xsd:double ;
+        geo:lon     "6.6522"^^xsd:double .
+
+est:StopArea:OCE87110171
+        a           geo:SpatialThing ;
+        rdfs:label  "Landeyrat" ;
+        geo:lat     "45.279815"^^xsd:double ;
+        geo:lon     "2.869594"^^xsd:double .
+
+est:StopArea:OCE85010033
+        a           geo:SpatialThing ;
+        rdfs:label  "Satigny" ;
+        geo:lat     "46.21424"^^xsd:double ;
+        geo:lon     "6.03749"^^xsd:double .
+
+est:StopArea:OCE82009300
+        a           geo:SpatialThing ;
+        rdfs:label  "Petange" ;
+        geo:lat     "49.55419"^^xsd:double ;
+        geo:lon     "5.8786"^^xsd:double .
+
+est:StopArea:OCE85043141
+        a           geo:SpatialThing ;
+        rdfs:label  "La Chaux-de-Fonds" ;
+        geo:lat     "47.09865"^^xsd:double ;
+        geo:lon     "6.82603"^^xsd:double .
+
+est:StopPoint:OCECar:TER-82001000
+        a             geo:Point ;
+        rdfs:label    "Luxembourg" ;
+        geo:lat       "49.599722"^^xsd:double ;
+        geo:location  est:StopArea:OCE82001000 ;
+        geo:lon       "6.134722"^^xsd:double .
+
+est:StopArea:OCE85001271
+        a           geo:SpatialThing ;
+        rdfs:label  "Courtemaîche" ;
+        geo:lat     "47.45587"^^xsd:double ;
+        geo:lon     "7.05539"^^xsd:double .
+
+est:StopArea:OCE87107466
+        a           geo:SpatialThing ;
+        rdfs:label  "Eurville Mairie" ;
+        geo:lat     "48.585297"^^xsd:double ;
+        geo:lon     "5.03725"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85000109
+        a             geo:Point ;
+        rdfs:label    "Basel SBB" ;
+        geo:lat       "47.5474"^^xsd:double ;
+        geo:location  est:StopArea:OCE85000109 ;
+        geo:lon       "7.58956"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85042150
+        a             geo:Point ;
+        rdfs:label    "Travers" ;
+        geo:lat       "46.94241"^^xsd:double ;
+        geo:location  est:StopArea:OCE85042150 ;
+        geo:lon       "6.67657"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010223
+        a             geo:Point ;
+        rdfs:label    "Versoix" ;
+        geo:lat       "46.279717"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010223 ;
+        geo:lon       "6.165748"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82007187
+        a             geo:Point ;
+        rdfs:label    "Bascharage secteur Sanem" ;
+        geo:lat       "49.5585"^^xsd:double ;
+        geo:location  est:StopArea:OCE82007187 ;
+        geo:lon       "5.9249"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85162750
+        a             geo:Point ;
+        rdfs:label    "Chêne-Bourg" ;
+        geo:lat       "46.196607"^^xsd:double ;
+        geo:location  est:StopArea:OCE85162750 ;
+        geo:lon       "6.197253"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80251850
+        a             geo:Point ;
+        rdfs:label    "Konz Mitte" ;
+        geo:lat       "49.700046"^^xsd:double ;
+        geo:location  est:StopArea:OCE80251850 ;
+        geo:lon       "6.57329"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87009696
+        a             geo:Point ;
+        rdfs:label    "La Douzillère" ;
+        geo:lat       "47.338792"^^xsd:double ;
+        geo:location  est:StopArea:OCE87009696 ;
+        geo:lon       "0.652962"^^xsd:double .
+
+est:StopArea:OCE85161554
+        a           geo:SpatialThing ;
+        rdfs:label  "Lancy-Pont-Rouge" ;
+        geo:lat     "46.188897"^^xsd:double ;
+        geo:lon     "6.125333"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010231
+        a             geo:Point ;
+        rdfs:label    "Coppet" ;
+        geo:lat       "46.317378"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010231 ;
+        geo:lon       "6.187829"^^xsd:double .
+
+est:StopArea:OCE87107474
+        a           geo:SpatialThing ;
+        rdfs:label  "Saint-Dizier Godard-Jeanson" ;
+        geo:lat     "48.631407"^^xsd:double ;
+        geo:lon     "4.950304"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001594
+        a             geo:Point ;
+        rdfs:label    "Grenchen Nord" ;
+        geo:lat       "47.1918"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001594 ;
+        geo:lon       "7.38947"^^xsd:double .
+
+est:StopArea:OCE87110379
+        a           geo:SpatialThing ;
+        rdfs:label  "Fays-la-Chapelle" ;
+        geo:lat     "48.129696"^^xsd:double ;
+        geo:lon     "4.018933"^^xsd:double .
+
+est:StopArea:OCE82002370
+        a           geo:SpatialThing ;
+        rdfs:label  "Rodange" ;
+        geo:lat     "49.550911"^^xsd:double ;
+        geo:lon     "5.843642"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87009712
+        a             geo:Point ;
+        rdfs:label    "Saint-Vaast-Dieppedalle" ;
+        geo:lat       "49.75585"^^xsd:double ;
+        geo:location  est:StopArea:OCE87009712 ;
+        geo:lon       "0.721415"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82002501
+        a             geo:Point ;
+        rdfs:label    "Howald" ;
+        geo:lat       "49.58032"^^xsd:double ;
+        geo:location  est:StopArea:OCE82002501 ;
+        geo:lon       "6.13232"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001289
+        a             geo:Point ;
+        rdfs:label    "Boncourt" ;
+        geo:lat       "47.49263"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001289 ;
+        geo:lon       "7.01656"^^xsd:double .
+
+est:StopArea:OCE87107482
+        a           geo:SpatialThing ;
+        rdfs:label  "Chatonrupt" ;
+        geo:lat     "48.488599"^^xsd:double ;
+        geo:lon     "5.12729"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110189
+        a             geo:Point ;
+        rdfs:label    "Marcenat" ;
+        geo:lat       "45.305259"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110189 ;
+        geo:lon       "2.828722"^^xsd:double .
+
+est:StopArea:OCE85010207
+        a           geo:SpatialThing ;
+        rdfs:label  "Chambésy" ;
+        geo:lat     "46.242378"^^xsd:double ;
+        geo:lon     "6.147342"^^xsd:double .
+
+est:StopArea:OCE85010157
+        a           geo:SpatialThing ;
+        rdfs:label  "Tannay" ;
+        geo:lat     "46.307636"^^xsd:double ;
+        geo:lon     "6.181127"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85001289
+        a             geo:Point ;
+        rdfs:label    "Boncourt" ;
+        geo:lat       "47.49263"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001289 ;
+        geo:lon       "7.01656"^^xsd:double .
+
+est:StopArea:OCE83045013
+        a           geo:SpatialThing ;
+        rdfs:label  "VENTIMIGLIA" ;
+        geo:lat     "43.792569"^^xsd:double ;
+        geo:lon     "7.610233"^^xsd:double .
+
+est:StopArea:OCE85162834
+        a           geo:SpatialThing ;
+        rdfs:label  "Genève-Sécheron" ;
+        geo:lat     "46.222438"^^xsd:double ;
+        geo:lon     "6.144557"^^xsd:double .
+
+est:StopArea:OCE87107490
+        a           geo:SpatialThing ;
+        rdfs:label  "Fronville Lotissement" ;
+        geo:lat     "48.404662"^^xsd:double ;
+        geo:lon     "5.154708"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001255
+        a             geo:Point ;
+        rdfs:label    "Courgenay" ;
+        geo:lat       "47.40522"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001255 ;
+        geo:lon       "7.12421"^^xsd:double .
+
+est:StopArea:OCE82007146
+        a           geo:SpatialThing ;
+        rdfs:label  "Dippach secteur Reckange" ;
+        geo:lat     "49.57252"^^xsd:double ;
+        geo:lon     "5.99512"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85011031
+        a             geo:Point ;
+        rdfs:label    "Vallorbe" ;
+        geo:lat       "46.71242"^^xsd:double ;
+        geo:location  est:StopArea:OCE85011031 ;
+        geo:lon       "6.37057"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110205
+        a             geo:Point ;
+        rdfs:label    "Saint-Amandin" ;
+        geo:lat       "45.343218"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110205 ;
+        geo:lon       "2.694622"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110197
+        a             geo:Point ;
+        rdfs:label    "Condat" ;
+        geo:lat       "45.334835"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110197 ;
+        geo:lon       "2.759838"^^xsd:double .
+
+est:StopArea:OCE85010215
+        a           geo:SpatialThing ;
+        rdfs:label  "Genthod-Bellevue" ;
+        geo:lat     "46.256728"^^xsd:double ;
+        geo:lon     "6.153962"^^xsd:double .
+
+est:StopArea:OCE82007104
+        a           geo:SpatialThing ;
+        rdfs:label  "Luxembourg secteur Hollerich" ;
+        geo:lat     "49.59586"^^xsd:double ;
+        geo:lon     "6.11878"^^xsd:double .
+
+est:StopArea:OCE87024380
+        a           geo:SpatialThing ;
+        rdfs:label  "Le Puy-en-Velay Lafayette" ;
+        geo:lat     "45.043962"^^xsd:double ;
+        geo:lon     "3.879959"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80144154
+        a             geo:Point ;
+        rdfs:label    "Neuenburg (Baden)" ;
+        geo:lat       "47.8115"^^xsd:double ;
+        geo:location  est:StopArea:OCE80144154 ;
+        geo:lon       "7.5628"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80143503
+        a             geo:Point ;
+        rdfs:label    "Freiburg (Breisgau) Hbf" ;
+        geo:lat       "47.9979"^^xsd:double ;
+        geo:location  est:StopArea:OCE80143503 ;
+        geo:lon       "7.8416"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001263
+        a             geo:Point ;
+        rdfs:label    "Porrentruy" ;
+        geo:lat       "47.42091"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001263 ;
+        geo:lon       "7.08009"^^xsd:double .
+
+est:StopArea:OCE87110361
+        a           geo:SpatialThing ;
+        rdfs:label  "Villeneuve-au-Chemin" ;
+        geo:lat     "48.089901"^^xsd:double ;
+        geo:lon     "3.851317"^^xsd:double .
+
+est:StopArea:OCE85010223
+        a           geo:SpatialThing ;
+        rdfs:label  "Versoix" ;
+        geo:lat     "46.279717"^^xsd:double ;
+        geo:lon     "6.165748"^^xsd:double .
+
+est:StopArea:OCE85162750
+        a           geo:SpatialThing ;
+        rdfs:label  "Chêne-Bourg" ;
+        geo:lat     "46.196607"^^xsd:double ;
+        geo:lon     "6.197253"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80251819
+        a             geo:Point ;
+        rdfs:label    "Trèves" ;
+        geo:lat       "49.7568"^^xsd:double ;
+        geo:location  est:StopArea:OCE80251819 ;
+        geo:lon       "6.6522"^^xsd:double .
+
+est:StopArea:OCE80144139
+        a           geo:SpatialThing ;
+        rdfs:label  "Muellheim (Baden)" ;
+        geo:lat     "47.81"^^xsd:double ;
+        geo:lon     "7.5996"^^xsd:double .
+
+est:StopPoint:OCECar:TER-80144154
+        a             geo:Point ;
+        rdfs:label    "Neuenburg (Baden)" ;
+        geo:lat       "47.8115"^^xsd:double ;
+        geo:location  est:StopArea:OCE80144154 ;
+        geo:lon       "7.5628"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82009300
+        a             geo:Point ;
+        rdfs:label    "Petange" ;
+        geo:lat       "49.55419"^^xsd:double ;
+        geo:location  est:StopArea:OCE82009300 ;
+        geo:lon       "5.8786"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85043141
+        a             geo:Point ;
+        rdfs:label    "La Chaux-de-Fonds" ;
+        geo:lat       "47.09865"^^xsd:double ;
+        geo:location  est:StopArea:OCE85043141 ;
+        geo:lon       "6.82603"^^xsd:double .
+
+est:StopArea:OCE85001248
+        a           geo:SpatialThing ;
+        rdfs:label  "St-Ursanne" ;
+        geo:lat     "47.36769"^^xsd:double ;
+        geo:lon     "7.16596"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85001263
+        a             geo:Point ;
+        rdfs:label    "Porrentruy" ;
+        geo:lat       "47.42091"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001263 ;
+        geo:lon       "7.08009"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001271
+        a             geo:Point ;
+        rdfs:label    "Courtemaîche" ;
+        geo:lat       "47.45587"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001271 ;
+        geo:lon       "7.05539"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107508
+        a             geo:Point ;
+        rdfs:label    "Marnaval Église" ;
+        geo:lat       "48.62535"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107508 ;
+        geo:lon       "4.990121"^^xsd:double .
+
+est:StopArea:OCE85001206
+        a           geo:SpatialThing ;
+        rdfs:label  "Courtételle" ;
+        geo:lat     "47.34282"^^xsd:double ;
+        geo:lon     "7.31794"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107458
+        a             geo:Point ;
+        rdfs:label    "Gudmont-Centre" ;
+        geo:lat       "48.342516"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107458 ;
+        geo:lon       "5.136969"^^xsd:double .
+
+est:StopArea:OCE85010231
+        a           geo:SpatialThing ;
+        rdfs:label  "Coppet" ;
+        geo:lat     "46.317378"^^xsd:double ;
+        geo:lon     "6.187829"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85162727
+        a             geo:Point ;
+        rdfs:label    "Genève-Champel" ;
+        geo:lat       "46.192191"^^xsd:double ;
+        geo:location  est:StopArea:OCE85162727 ;
+        geo:lon       "6.153505"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110171
+        a             geo:Point ;
+        rdfs:label    "Landeyrat" ;
+        geo:lat       "45.279815"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110171 ;
+        geo:lon       "2.869594"^^xsd:double .
+
+est:StopArea:OCE80251967
+        a           geo:SpatialThing ;
+        rdfs:label  "Perl" ;
+        geo:lat     "49.4731"^^xsd:double ;
+        geo:lon     "6.3693"^^xsd:double .
+
+est:StopPoint:OCECar:TER-85001271
+        a             geo:Point ;
+        rdfs:label    "Courtemaîche" ;
+        geo:lat       "47.45587"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001271 ;
+        geo:lon       "7.05539"^^xsd:double .
+
+est:StopArea:OCE85001214
+        a           geo:SpatialThing ;
+        rdfs:label  "Courfaivre" ;
+        geo:lat     "47.33508"^^xsd:double ;
+        geo:lon     "7.29117"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107466
+        a             geo:Point ;
+        rdfs:label    "Eurville Mairie" ;
+        geo:lat       "48.585297"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107466 ;
+        geo:lon       "5.03725"^^xsd:double .
+
+est:StopArea:OCE87007146
+        a           geo:SpatialThing ;
+        rdfs:label  "Saint-Valéry-en-Caux Port" ;
+        geo:lat     "49.867517"^^xsd:double ;
+        geo:lon     "0.711695"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85162735
+        a             geo:Point ;
+        rdfs:label    "Genève-Eaux-Vives" ;
+        geo:lat       "46.201444"^^xsd:double ;
+        geo:location  est:StopArea:OCE85162735 ;
+        geo:lon       "6.16658"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-71793150
+        a             geo:Point ;
+        rdfs:label    "Portbou" ;
+        geo:lat       "42.424701"^^xsd:double ;
+        geo:location  est:StopArea:OCE71793150 ;
+        geo:lon       "3.158034"^^xsd:double .
+
+est:StopArea:OCE87107409
+        a           geo:SpatialThing ;
+        rdfs:label  "Vignory Centre" ;
+        geo:lat     "48.278352"^^xsd:double ;
+        geo:lon     "5.101419"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82002370
+        a             geo:Point ;
+        rdfs:label    "Rodange" ;
+        geo:lat       "49.550911"^^xsd:double ;
+        geo:location  est:StopArea:OCE82002370 ;
+        geo:lon       "5.843642"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010116
+        a             geo:Point ;
+        rdfs:label    "Les Tuileries" ;
+        geo:lat       "46.249945"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010116 ;
+        geo:lon       "6.147342"^^xsd:double .
+
+est:StopArea:OCE85001222
+        a           geo:SpatialThing ;
+        rdfs:label  "Bassecourt" ;
+        geo:lat     "47.33668"^^xsd:double ;
+        geo:lon     "7.24685"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010066
+        a             geo:Point ;
+        rdfs:label    "Meyrin" ;
+        geo:lat       "46.22235"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010066 ;
+        geo:lon       "6.0769"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107474
+        a             geo:Point ;
+        rdfs:label    "Saint-Dizier Godard-Jeanson" ;
+        geo:lat       "48.631407"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107474 ;
+        geo:lon       "4.950304"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110379
+        a             geo:Point ;
+        rdfs:label    "Fays-la-Chapelle" ;
+        geo:lat       "48.129696"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110379 ;
+        geo:lon       "4.018933"^^xsd:double .
+
+est:StopArea:OCE87107417
+        a           geo:SpatialThing ;
+        rdfs:label  "Chaumont Hôpital" ;
+        geo:lat     "48.119881"^^xsd:double ;
+        geo:lon     "5.139413"^^xsd:double .
+
+est:StopPoint:OCECar:TER-82002370
+        a             geo:Point ;
+        rdfs:label    "Rodange" ;
+        geo:lat       "49.550911"^^xsd:double ;
+        geo:location  est:StopArea:OCE82002370 ;
+        geo:lon       "5.843642"^^xsd:double .
+
+est:StopArea:OCE85043000
+        a           geo:SpatialThing ;
+        rdfs:label  "Biel/Bienne" ;
+        geo:lat     "47.13289"^^xsd:double ;
+        geo:lon     "7.24292"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010124
+        a             geo:Point ;
+        rdfs:label    "Creux-de-Genthod" ;
+        geo:lat       "46.263758"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010124 ;
+        geo:lon       "6.161319"^^xsd:double .
+
+est:StopArea:OCE87101998
+        a           geo:SpatialThing ;
+        rdfs:label  "Durdat-Larequille" ;
+        geo:lat     "46.250854"^^xsd:double ;
+        geo:lon     "2.702154"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010074
+        a             geo:Point ;
+        rdfs:label    "Vernier" ;
+        geo:lat       "46.22071"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010074 ;
+        geo:lon       "6.093892"^^xsd:double .
+
+est:StopArea:OCE85001230
+        a           geo:SpatialThing ;
+        rdfs:label  "Glovelier" ;
+        geo:lat     "47.3352"^^xsd:double ;
+        geo:lon     "7.20931"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-83045013
+        a             geo:Point ;
+        rdfs:label    "VENTIMIGLIA" ;
+        geo:lat       "43.792569"^^xsd:double ;
+        geo:location  est:StopArea:OCE83045013 ;
+        geo:lon       "7.610233"^^xsd:double .
+
+est:StopArea:OCE82006030
+        a           geo:SpatialThing ;
+        rdfs:label  "Bettembourg" ;
+        geo:lat     "49.516111"^^xsd:double ;
+        geo:lon     "6.101111"^^xsd:double .
+
+est:StopArea:OCE80143099
+        a           geo:SpatialThing ;
+        rdfs:label  "Offenburg" ;
+        geo:lat     "48.4765"^^xsd:double ;
+        geo:lon     "7.9468"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107482
+        a             geo:Point ;
+        rdfs:label    "Chatonrupt" ;
+        geo:lat       "48.488599"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107482 ;
+        geo:lon       "5.12729"^^xsd:double .
+
+est:StopArea:OCE80253914
+        a           geo:SpatialThing ;
+        rdfs:label  "Sarrebruck" ;
+        geo:lat     "49.241"^^xsd:double ;
+        geo:lon     "6.991"^^xsd:double .
+
+est:StopArea:OCE87107425
+        a           geo:SpatialThing ;
+        rdfs:label  "Bologne Salle des Fêtes" ;
+        geo:lat     "48.199737"^^xsd:double ;
+        geo:lon     "5.141416"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85171421
+        a             geo:Point ;
+        rdfs:label    "Lancy-Bachet" ;
+        geo:lat       "46.174333"^^xsd:double ;
+        geo:location  est:StopArea:OCE85171421 ;
+        geo:lon       "6.129372"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82007146
+        a             geo:Point ;
+        rdfs:label    "Dippach secteur Reckange" ;
+        geo:lat       "49.57252"^^xsd:double ;
+        geo:location  est:StopArea:OCE82007146 ;
+        geo:lon       "5.99512"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82007104
+        a             geo:Point ;
+        rdfs:label    "Luxembourg secteur Hollerich" ;
+        geo:lat       "49.59586"^^xsd:double ;
+        geo:location  est:StopArea:OCE82007104 ;
+        geo:lon       "6.11878"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010132
+        a             geo:Point ;
+        rdfs:label    "Pont-Céard" ;
+        geo:lat       "46.28739"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010132 ;
+        geo:lon       "6.162667"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010082
+        a             geo:Point ;
+        rdfs:label    "Geneve" ;
+        geo:lat       "46.21022"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010082 ;
+        geo:lon       "6.14244"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107490
+        a             geo:Point ;
+        rdfs:label    "Fronville Lotissement" ;
+        geo:lat       "48.404662"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107490 ;
+        geo:lon       "5.154708"^^xsd:double .
+
+est:StopArea:OCE87107433
+        a           geo:SpatialThing ;
+        rdfs:label  "Soncourt" ;
+        geo:lat     "48.252239"^^xsd:double ;
+        geo:lon     "5.116971"^^xsd:double .
+
+est:StopArea:OCE87109306
+        a           geo:SpatialThing ;
+        rdfs:label  "Lille Centre Hospitalier Régional" ;
+        geo:lat     "50.614297"^^xsd:double ;
+        geo:lon     "3.034278"^^xsd:double .
+
+est:StopArea:OCE87005397
+        a           geo:SpatialThing ;
+        rdfs:label  "Cany-Barville" ;
+        geo:lat     "49.788629"^^xsd:double ;
+        geo:lon     "0.637805"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87024380
+        a             geo:Point ;
+        rdfs:label    "Le Puy-en-Velay Lafayette" ;
+        geo:lat       "45.043962"^^xsd:double ;
+        geo:location  est:StopArea:OCE87024380 ;
+        geo:lon       "3.879959"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010140
+        a             geo:Point ;
+        rdfs:label    "Mies" ;
+        geo:lat       "46.299879"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010140 ;
+        geo:lon       "6.169566"^^xsd:double .
+
+est:StopArea:OCE85162727
+        a           geo:SpatialThing ;
+        rdfs:label  "Genève-Champel" ;
+        geo:lat     "46.192191"^^xsd:double ;
+        geo:lon     "6.153505"^^xsd:double .
+
+est:StopArea:OCE85043158
+        a           geo:SpatialThing ;
+        rdfs:label  "Le Crêt-du-Locle" ;
+        geo:lat     "47.0776"^^xsd:double ;
+        geo:lon     "6.78519"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80144139
+        a             geo:Point ;
+        rdfs:label    "Muellheim (Baden)" ;
+        geo:lat       "47.81"^^xsd:double ;
+        geo:location  est:StopArea:OCE80144139 ;
+        geo:lon       "7.5996"^^xsd:double .
+
+est:StopArea:OCE80142919
+        a           geo:SpatialThing ;
+        rdfs:label  "Kork" ;
+        geo:lat     "48.5702"^^xsd:double ;
+        geo:lon     "7.8744"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001248
+        a             geo:Point ;
+        rdfs:label    "St-Ursanne" ;
+        geo:lat       "47.36769"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001248 ;
+        geo:lon       "7.16596"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001206
+        a             geo:Point ;
+        rdfs:label    "Courtételle" ;
+        geo:lat       "47.34282"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001206 ;
+        geo:lon       "7.31794"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87110361
+        a             geo:Point ;
+        rdfs:label    "Villeneuve-au-Chemin" ;
+        geo:lat       "48.089901"^^xsd:double ;
+        geo:location  est:StopArea:OCE87110361 ;
+        geo:lon       "3.851317"^^xsd:double .
+
+est:StopArea:OCE87110346
+        a           geo:SpatialThing ;
+        rdfs:label  "Ervy-le-Châtel Halles" ;
+        geo:lat     "48.041674"^^xsd:double ;
+        geo:lon     "3.910929"^^xsd:double .
+
+est:StopArea:OCE85162735
+        a           geo:SpatialThing ;
+        rdfs:label  "Genève-Eaux-Vives" ;
+        geo:lat     "46.201444"^^xsd:double ;
+        geo:lon     "6.16658"^^xsd:double .
+
+est:StopArea:OCE71793150
+        a           geo:SpatialThing ;
+        rdfs:label  "Portbou" ;
+        geo:lat     "42.424701"^^xsd:double ;
+        geo:lon     "3.158034"^^xsd:double .
+
+est:StopArea:OCE85043166
+        a           geo:SpatialThing ;
+        rdfs:label  "Le Locle" ;
+        geo:lat     "47.05786"^^xsd:double ;
+        geo:lon     "6.74616"^^xsd:double .
+
+est:StopPoint:OCECar:TER-80144139
+        a             geo:Point ;
+        rdfs:label    "Muellheim (Baden)" ;
+        geo:lat       "47.81"^^xsd:double ;
+        geo:location  est:StopArea:OCE80144139 ;
+        geo:lon       "7.5996"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80251967
+        a             geo:Point ;
+        rdfs:label    "Perl" ;
+        geo:lat       "49.4731"^^xsd:double ;
+        geo:location  est:StopArea:OCE80251967 ;
+        geo:lon       "6.3693"^^xsd:double .
+
+est:StopArea:OCE80142927
+        a           geo:SpatialThing ;
+        rdfs:label  "Kehl" ;
+        geo:lat     "48.5767"^^xsd:double ;
+        geo:lon     "7.8063"^^xsd:double .
+
+est:StopArea:OCE85001446
+        a           geo:SpatialThing ;
+        rdfs:label  "Buix" ;
+        geo:lat     "47.47933"^^xsd:double ;
+        geo:lon     "7.02998"^^xsd:double .
+
+est:StopArea:OCE87003707
+        a           geo:SpatialThing ;
+        rdfs:label  "Ydes" ;
+        geo:lat     "45.344155"^^xsd:double ;
+        geo:lon     "2.436326"^^xsd:double .
+
+est:StopArea:OCE85010116
+        a           geo:SpatialThing ;
+        rdfs:label  "Les Tuileries" ;
+        geo:lat     "46.249945"^^xsd:double ;
+        geo:lon     "6.147342"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001214
+        a             geo:Point ;
+        rdfs:label    "Courfaivre" ;
+        geo:lat       "47.33508"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001214 ;
+        geo:lon       "7.29117"^^xsd:double .
+
+est:StopArea:OCE85010066
+        a           geo:SpatialThing ;
+        rdfs:label  "Meyrin" ;
+        geo:lat     "46.22235"^^xsd:double ;
+        geo:lon     "6.0769"^^xsd:double .
+
+est:StopArea:OCE87111864
+        a           geo:SpatialThing ;
+        rdfs:label  "Balsièges Bourg" ;
+        geo:lat     "44.482212"^^xsd:double ;
+        geo:lon     "3.456598"^^xsd:double .
+
+est:StopArea:OCE85010124
+        a           geo:SpatialThing ;
+        rdfs:label  "Creux-de-Genthod" ;
+        geo:lat     "46.263758"^^xsd:double ;
+        geo:lon     "6.161319"^^xsd:double .
+
+est:StopArea:OCE85001412
+        a           geo:SpatialThing ;
+        rdfs:label  "Courchavon" ;
+        geo:lat     "47.43977"^^xsd:double ;
+        geo:lon     "7.05765"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001222
+        a             geo:Point ;
+        rdfs:label    "Bassecourt" ;
+        geo:lat       "47.33668"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001222 ;
+        geo:lon       "7.24685"^^xsd:double .
+
+est:StopArea:OCE85010074
+        a           geo:SpatialThing ;
+        rdfs:label  "Vernier" ;
+        geo:lat     "46.22071"^^xsd:double ;
+        geo:lon     "6.093892"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87007146
+        a             geo:Point ;
+        rdfs:label    "Saint-Valéry-en-Caux Port" ;
+        geo:lat       "49.867517"^^xsd:double ;
+        geo:location  est:StopArea:OCE87007146 ;
+        geo:lon       "0.711695"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107409
+        a             geo:Point ;
+        rdfs:label    "Vignory Centre" ;
+        geo:lat       "48.278352"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107409 ;
+        geo:lon       "5.101419"^^xsd:double .
+
+est:StopPoint:OCETramTrain-80253914
+        a             geo:Point ;
+        rdfs:label    "Sarrebruck" ;
+        geo:lat       "49.241"^^xsd:double ;
+        geo:location  est:StopArea:OCE80253914 ;
+        geo:lon       "6.991"^^xsd:double .
+
+est:StopArea:OCE85042218
+        a           geo:SpatialThing ;
+        rdfs:label  "Neuchatel" ;
+        geo:lat     "46.99673"^^xsd:double ;
+        geo:lon     "6.93571"^^xsd:double .
+
+est:StopArea:OCE85171421
+        a           geo:SpatialThing ;
+        rdfs:label  "Lancy-Bachet" ;
+        geo:lat     "46.174333"^^xsd:double ;
+        geo:lon     "6.129372"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85043000
+        a             geo:Point ;
+        rdfs:label    "Biel/Bienne" ;
+        geo:lat       "47.13289"^^xsd:double ;
+        geo:location  est:StopArea:OCE85043000 ;
+        geo:lon       "7.24292"^^xsd:double .
+
+est:StopArea:OCE85001099
+        a           geo:SpatialThing ;
+        rdfs:label  "Delemont" ;
+        geo:lat     "47.362"^^xsd:double ;
+        geo:lon     "7.35007"^^xsd:double .
+
+est:StopArea:OCE80142901
+        a           geo:SpatialThing ;
+        rdfs:label  "Legelshurst" ;
+        geo:lat     "48.5585"^^xsd:double ;
+        geo:lon     "7.9138"^^xsd:double .
+
+est:StopArea:OCE85010132
+        a           geo:SpatialThing ;
+        rdfs:label  "Pont-Céard" ;
+        geo:lat     "46.28739"^^xsd:double ;
+        geo:lon     "6.162667"^^xsd:double .
+
+est:StopArea:OCE80142893
+        a           geo:SpatialThing ;
+        rdfs:label  "Appenweier" ;
+        geo:lat     "48.5419"^^xsd:double ;
+        geo:lon     "7.9735"^^xsd:double .
+
+est:StopArea:OCE85001057
+        a           geo:SpatialThing ;
+        rdfs:label  "Moutier" ;
+        geo:lat     "47.28067"^^xsd:double ;
+        geo:lon     "7.38105"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85001230
+        a             geo:Point ;
+        rdfs:label    "Glovelier" ;
+        geo:lat       "47.3352"^^xsd:double ;
+        geo:location  est:StopArea:OCE85001230 ;
+        geo:lon       "7.20931"^^xsd:double .
+
+est:StopArea:OCE85010082
+        a           geo:SpatialThing ;
+        rdfs:label  "Geneve" ;
+        geo:lat     "46.21022"^^xsd:double ;
+        geo:lon     "6.14244"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-82006030
+        a             geo:Point ;
+        rdfs:label    "Bettembourg" ;
+        geo:lat       "49.516111"^^xsd:double ;
+        geo:location  est:StopArea:OCE82006030 ;
+        geo:lon       "6.101111"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80143099
+        a             geo:Point ;
+        rdfs:label    "Offenburg" ;
+        geo:lat       "48.4765"^^xsd:double ;
+        geo:location  est:StopArea:OCE80143099 ;
+        geo:lon       "7.9468"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-85010009
+        a             geo:Point ;
+        rdfs:label    "Zimeysa" ;
+        geo:lat       "46.221263"^^xsd:double ;
+        geo:location  est:StopArea:OCE85010009 ;
+        geo:lon       "6.065739"^^xsd:double .
+
+est:StopPoint:OCETrain:TER-80253914
+        a             geo:Point ;
+        rdfs:label    "Sarrebruck" ;
+        geo:lat       "49.241"^^xsd:double ;
+        geo:location  est:StopArea:OCE80253914 ;
+        geo:lon       "6.991"^^xsd:double .
+
+est:StopPoint:OCECar:TER-87107417
+        a             geo:Point ;
+        rdfs:label    "Chaumont Hôpital" ;
+        geo:lat       "48.119881"^^xsd:double ;
+        geo:location  est:StopArea:OCE87107417 ;
+        geo:lon       "5.139413"^^xsd:double .
+
+est:StopArea:OCE87108829
+        a           geo:SpatialThing ;
+        rdfs:label  "Sedan Place Calonne" ;
+        geo:lat     "49.699747"^^xsd:double ;
+        geo:lon     "4.944245"^^xsd:double .
